@@ -250,6 +250,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/ \
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 ARCH		?= $(SUBARCH)
 CROSS_COMPILE	?= $(CONFIG_CROSS_COMPILE:"%"=%)
+export SEC_BUILD_OPTION_HW_REVISION=02
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
