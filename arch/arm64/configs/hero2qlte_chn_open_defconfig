@@ -4419,7 +4419,7 @@ CONFIG_SDFAT_DEBUG=y
 # CONFIG_SDFAT_DBG_IOCTL is not set
 CONFIG_SDFAT_DBG_MSG=y
 # CONFIG_SDFAT_DBG_BUGON is not set
-# CONFIG_NTFS_FS is not set
+CONFIG_NTFS_FS=y
 
 #
 # Pseudo filesystems
@@ -4473,13 +4473,13 @@ CONFIG_SEC_EVENT_LOG=y
 CONFIG_PSTORE_RAM=y
 # CONFIG_SYSV_FS is not set
 # CONFIG_UFS_FS is not set
-# CONFIG_F2FS_FS is not set
+CONFIG_F2FS_FS is not set
 # CONFIG_EFIVAR_FS is not set
 CONFIG_NETWORK_FILESYSTEMS=y
-# CONFIG_NFS_FS is not set
+CONFIG_NFS_FS=y
 # CONFIG_NFSD is not set
 # CONFIG_CEPH_FS is not set
-# CONFIG_CIFS is not set
+CONFIG_CIFS=y
 # CONFIG_NCP_FS is not set
 # CONFIG_CODA_FS is not set
 # CONFIG_AFS_FS is not set
